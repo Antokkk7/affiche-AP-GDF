@@ -357,8 +357,8 @@ if (mousePressed) {
 }
 function keyPressed() {
   if (keyCode === LEFT_ARROW) {
-    valK = -0.02;
-  } else if (keyCode === RIGHT_ARROW) {
     valK = 0.02;
+  } else if (keyCode === RIGHT_ARROW) {
+    valK = -0.02;
   }
 }
